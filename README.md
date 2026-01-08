@@ -31,11 +31,11 @@ const targetDate = new Date("2025-12-18T00:00:00");
  Year Mo Day Hr Min Sec
 ```
 
-- **YYYY** = 4-digit year (2025, 2026, etc.)
-- **MM** = 2-digit month (01=Jan, 02=Feb, ... 12=Dec)
-- **DD** = 2-digit day (01 to 31)
+- **2026** = 4-digit year (2025, 2026, etc.)
+- **01** = 2-digit month (01=Jan, 02=Feb, ... 12=Dec)
+- **24** = 2-digit day (01 to 31)
 - **T** = Separator (keep this!)
-- **HH:MM:SS** = Time in 24-hour format
+- **00:00:00** = Time in 24-hour format
 
 **Time Examples:**
 | What you want | Use this |
@@ -70,9 +70,12 @@ const targetDate = new Date("2025-12-25T12:00:00");
 **File:** `src/components/MessageCard.jsx` (Lines 17-28)
 
 ```javascript
-const recipientName = "Divyanshi";
-const senderName = "Ashmit";
-const message = `Your message here...`;
+const recipientName = "Dhruwi";
+const senderName = "Himesh";
+const message = `Happy Birthday, cutieeee 🎂✨
+wishing you the best birthday ever You are the most beautiful part of my life, not just because of your looks or smile, but the way you make everything feel lighter and warmer the way you love me. Every moment with you feels magical🪄, and every day I’m lucky to that I get to call you mine 🥹💗.
+i hope this year bring you endless happiness 👀💗, success, and all the dreams come true. I promise to stand by you forever💗, I'll always cheer for you, and I'll love you a little more every single day. You deserve the world and so much more.
+Happy birthday my love 😘❤️...`;
 ```
 
 ---

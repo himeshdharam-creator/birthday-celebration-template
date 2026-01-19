@@ -92,13 +92,7 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
           label="Minutes"
           prevValue={prevTime.minutes}
         />
-        <Digit
-          value={time.seconds}
-          label="Seconds"
-          prevValue={prevTime.seconds}
-        />
-      </div>
-    </section>
+        
   );
 }
 
